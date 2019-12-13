@@ -31,7 +31,7 @@ def send_mail(title, url, receiver):
     server.starttls()
     server.ehlo()
 
-    server.login('kdawg4.956@gmail.com', 'ogfmqtfrzavzyibj')
+    server.login('kdawg4.956@gmail.com', '<add_password_here>')
     subject = f"Price decrease for item: {title}"
     body = url
 
